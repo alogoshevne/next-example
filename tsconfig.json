@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -20,9 +24,49 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@core/*": [
+        "./src/core/*"
+      ],
+      "@setup/*": [
+        "./src/setup/*"
+      ],
+      "@mocks/*": [
+        "./src/REST/mocks/*"
+      ],
+      "@bus/*": [
+        "./src/bus/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@REST/*": [
+        "./src/REST/*"
+      ],
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@public/*": [
+        "./public/*"
+      ]
+    },
+    "baseUrl": "."
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "skipMissing": true,
+  "ignores": [
+    "jest",
+    "@testing-library",
+    "@types/*",
+    "@storybook/*",
+    "storybook-*",
+    "json-server",
+    "webpack",
+    "luxon",
+    "typescript",
+    "@testing-library/*",
+    "react-final-form-arrays",
+    "@trivago/prettier-plugin-sort-imports",
+    "babel-plugin-named-exports-order",
+    "prop-types",
+    "eslint-plugin-react-hooks"
+  ]
+}

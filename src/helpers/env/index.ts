@@ -1,0 +1,1 @@
+export { verifyEnvironment } from './verifyEnvironment';
